@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
+  <title>Julie Lam</title>
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/styles/lightbox.min.css">
+  <link rel="stylesheet" href="temp/styles/styles.css">
+  <script type="text/javascript" src="assets/scripts/lightbox-plus-jquery.min.js"></script>
+    <script type="text/javascript" src="assets/scripts/main.js"></script>
+
+</head>
+<body>
+  <header class="main-navigation">
+    <nav class="">
+      <ul class="list">
+      <!--  <li><a href="#about">About</a></li> -->
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#toolkit">Toolkit</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="wrapper--A">
+    <section id="about" class="page-section page-section--darkBlue page-section--intro">
+      <div class="page-section--intro__content wrapper">
+        <h1 class="page-section__headline">Julie Lam</h1>
+        <h2>Full-Stack Web Developer</h2>
+        <ul class="list list--intro">
+          <li><a href="https://github.com/orange571">Github</a></li>
+          <li><a href="mailto:julielam457@gmail.com">Email</a></li>
+        <!--  <li><a href="#resume">Resume</a></li>-->
+        </ul>
+      </div>
+    </section>
+    <div class="wrapper--B">
+      <section id="projects" class="page-section page-section--cream">
+        <div class="wrapper">
+          <h2 class="page-section__headline page-section__headline--projects">Projects</h2>
+          <div class="projects-gallery-nav">
+            <ul class="list">
+              <li><a class="anchor" href="#tune-tally">Tune Tally</a></li>
+              <li><a class="anchor" href="#thought-collector">Thought Collector</a></li>
+              <li><a class="anchor" href="#project-hub">Project Hub</a></li>
+            </ul>
+          </div>
+          <div class="projects-gallery-nav--desktop">
+            <ul class="list">
+              <li><a class="anchor" data-destination="tune-tally">Tune Tally</a></li>
+              <li><a class="anchor" data-destination="thought-collector">Thought Collector</a></li>
+              <li><a class="anchor" data-destination="project-hub">Project Hub</a></li>
+            </ul>
+          </div>
+          <div id="tune-tally" class="project active">
+            <picture>
+              <img srcset="assets/images/tune-tally-vote-small.png 400w, assets/images/tune-tally-vote-800x600.png 800w" alt="Screenshot of Tune Tally" class="project__image">
+              <div class="overlay">
+                <div class="overlay__text">Tune Tally</div>
+              </div>
+            </picture>
+            <div class="project__links">
+              <ul class="list">
+                <li><a href="https://github.com/orange571/tune-tally">Github</a></li>
+                <li><a href="https://tunetally.herokuapp.com">Try</a></li>
+                <li>
+                  <a href="assets/images/tune-tally-create-800x600.png" data-lightbox="tunetally">Gallery</a>
+                  <a href="assets/images/tune-tally-initialize-800x600.png" data-lightbox="tunetally"></a>
+                  <a href="assets/images/tune-tally-vote-800x600.png" data-lightbox="tunetally"></a>
+                  <a href="assets/images/tune-tally-results-800x600.png" data-lightbox="tunetally"></a>
+                </li>
+              </ul>
+            </div>
+            <div class="project__description">
+              Tune Tally is a poll generator website to help with collectively selecting songs.
+            </div>
+            <div class="project__build-tools">
+              Built with: Node.js, Express, MongoDB, Spotify Web API, Twitter Typeahead, Gulp, PostCSS, jQuery
+            </div>
+          </div>
+          <div id="thought-collector" class="project">
+            <picture>
+              <img srcset="assets/images/thought-collector-edit-small.png 400w, assets/images/thought-collector-edit-800x600.png 800w" alt="Screenshot of Tune Tally" class="project__image">
+              <div class="overlay">
+                <div class="overlay__text">Thought Collector</div>
+              </div>
+            </picture>
+            <div class="project__links">
+              <ul class="list">
+                <li><a href="https://github.com/orange571/react-blog-app">Github</a></li>
+                <li><a href="https://thought-collector-app.herokuapp.com">Try</a></li>
+                <li>
+                  <a href="assets/images/thought-collector-dash-800x600.png" data-lightbox="thought-collector">Gallery</a>
+                  <a href="assets/images/thought-collector-browse-800x600.png" data-lightbox="thought-collector"></a>
+                  <a href="assets/images/thought-collector-edit-800x600.png" data-lightbox="thought-collector"></a>
+                </li>
+              </ul>
+            </div>
+            <div class="project__description">
+              Thought Collector is a online diary website with the ability to make entries public or private.
+            </div>
+            <div class="project__build-tools">
+              Built with: Node.js, React, Redux, Firebase, Webpack
+            </div>
+          </div>
+          <div id="project-hub" class="project">
+            <picture>
+              <img srcset="assets/images/project-hub-news-small.png 400w, assets/images/project-hub-news-800x600.png 800w" alt="Screenshot of Tune Tally" class="project__image">
+              <div class="overlay">
+                <div class="overlay__text">Project Hub</div>
+              </div>
+            </picture>
+            <div class="project__links">
+              <ul class="list">
+                <li><a href="https://github.com/orange571/project-hub">Github</a></li>
+              <!--  <li><a href="https://project-hub.herokuapp.com">Try</a></li> -->
+                <li>
+                  <a href="assets/images/project-hub-home-800x1267.png" data-lightbox="project-hub">Gallery</a>
+                  <a href="assets/images/project-hub-library-800x600.png" data-lightbox="project-hub"></a>
+                  <a href="assets/images/project-hub-locations-800x678.png" data-lightbox="project-hub"></a>
+                  <a href="assets/images/project-hub-news-800x600.png" data-lightbox="project-hub"></a>
+                </li>
+              </ul>
+            </div>
+            <div class="project__description">
+              [In progress] Project Hub is a website to support a theorectical community center.
+              It features annoucement/comment creation, responsive google map location, and a item checkout portal.
+            </div>
+            <div class="project__build-tools">
+              Built with: Node.js, Express, MongoDB, Semantic UI, Google Maps API
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="wrapper--C">
+          <section id="toolkit" class="page-section page-section--salmon toolkit">
+            <div class="wrapper">
+              <h2 class="page-section__headline page-section__headline--yellow-underline">Toolkit</h2>
+              <ul class="list list--toolkit">
+                <li><i class="devicon-html5-plain"></i><span>HTML</span></li>
+                <li><i class="devicon-css3-plain"></i><span>CSS</span></li>
+                <li><i class="devicon-javascript-plain"></i><span>Javascript</span></li>
+                <li><i class="devicon-bootstrap-plain"></i><span>Bootstrap</span></li>
+                <li><i class="devicon-git-plain"></i><span>Git</span></li>
+                <li><i class="devicon-jquery-plain"></i><span>jQuery</span></li>
+                <li><i class="devicon-mongodb-plain"></i><span>MongoDB</span></li>
+                <li><i class="devicon-mysql-plain"></i><span>MySQL</span></li>
+                <li><i class="devicon-nodejs-plain"></i><span>Node.js</span></li>
+                <li><i class="devicon-react-plain"></i><span>React</span></li>
+                <li><i class="devicon-sass-original"></i><span>Sass</span></li>
+                <li><i class="devicon-gulp-plain"></i><span>Gulp</span></li>
+                <li><i class="devicon-webpack-plain"></i><span>Webpack</span></li>
+              </ul>
+            </div>
+          </section>
+          <section id="contact" class="page-section page-section--lightBlue contact">
+            <div class="wrapper">
+              <h2 class="page-section__headline">Contact</h2>
+              <p>Find me on Github</p>
+              <a href="https://github.com/orange571"><i class="fab fa-github icon--github"></i></a>
+              <hr width="100px"/>
+              <p>Send me an email at  <a href="mailto:julielam457@gmail.com">julielam457@gmail.com</a></p>
+            </div>
+          </section>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
